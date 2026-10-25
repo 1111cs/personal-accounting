@@ -1,0 +1,39 @@
+# Dependencies
+node_modules/
+
+# Environment files and local secrets
+.env
+.env.*
+!.env.example
+!**/.env.example
+
+# Build and test output
+dist/
+build/
+coverage/
+*.tsbuildinfo
+
+# Logs and runtime files
+*.log
+logs/
+tmp/
+temp/
+uploads/
+
+# Local data and database exports
+*.db
+*.sqlite
+*.sqlite3
+*.sql
+*.csv
+*.xlsx
+*.pdf
+
+# Editors and operating systems
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Local archives that must never be published
+.local-archive/
